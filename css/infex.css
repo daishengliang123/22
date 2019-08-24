@@ -1,0 +1,158 @@
+.lu{
+    width: 100%;
+    height:0.5rem ;
+    background: #0dc441;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.16rem;
+    color: #ffffff;
+
+}
+.left{
+     width:0.7rem ;
+     height: 0.2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background:rgba(255,255,255,0.5) ;
+     border-radius: 20px 0px 0px 20px;
+     cursor: pointer;
+}
+.right{
+    width:0.7rem ;
+     height: 0.2rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background:rgba(255,255,255,0.6);
+     border-radius: 0px 20px 20px 0px;
+     cursor: pointer;
+}
+.bai{
+width: 100%;
+height: 0.45rem;
+background: azure;
+color: black;
+font-size: 0.17rem;
+display: flex;
+justify-content:space-around;
+align-items: center;
+font-weight: 600;
+
+
+}
+.xianchang{
+    width:0.7rem ;
+    height: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yi,.er,.san{
+    width: 0.7rem;
+    height: 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bai .yi:hover{
+    border-bottom:3px solid #0dc441;
+}
+.bai .er:hover{
+    border-bottom:3px solid #0dc441;
+}
+.bai .san:hover{
+    border-bottom:3px solid #0dc441;
+}
+
+
+
+
+.shenhuo{
+    width:0.7rem ;
+    height: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.meilu{
+    width:0.7rem ;
+    height: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bai :hover .p1{
+color:green;
+}
+
+
+
+.tu{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+
+}
+.gou1,.gou2{
+    width: 49%;
+    background:antiquewhite;
+    height:3.5rem ;
+    margin-bottom: 0.15rem;
+
+}
+.l0{
+    width: 100%;
+    height: 3rem;
+    background: url("../images/host.png")center center no-repeat;
+    background-size:cover;
+}
+.l1{
+    font-size: 0.17rem;
+    text-align: center;
+}
+.foot{
+    width: 100%;
+    /* height: 0.5rem; */
+    background: cornsilk;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     font-size: 0.12rem;
+}
+.foot>li{
+    /* width: 20%; */
+    height: 0.38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* line-height: 0.38rem; */
+    /* text-align: center; */
+}
+.foot li:nth-child(3) .d1{
+    position:relative;
+}
+.p2 .iconfont{
+    font-size: 0.25rem;
+}
+.p4 .iconfont{
+    font-size: 0.4rem;
+    margin: 0.18rem 0;
+}
+.foot>li .p4{
+    width: 0.8rem; 
+    height: 0.8rem;
+    position: absolute;
+    bottom: -0.50rem;
+    left: 50%;
+    margin-left: -45px;
+    border-radius: 50%;
+    border: 1px solid darkorange;;
+display: flex;
+justify-content: center;
+background: gainsboro;
+}
